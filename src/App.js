@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 let defaultStyle = {
-  color: 'black'
+  color: 'white'
 }
 
 class App extends Component {
@@ -13,7 +13,9 @@ class App extends Component {
 
         <Aggregate/>
         <Aggregate/>
+
         <Filter/>
+        
         <Playlist/>
         <Playlist/>
         <Playlist/>
